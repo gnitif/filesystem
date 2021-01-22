@@ -1,0 +1,22 @@
+{
+    "name": "gnitif/filesystem",
+    "description": "upload file to oos,qiniucloud or cos",
+    "type": "git",
+    "require": {
+        "topthink/framework": "6.0.x-dev",
+        "qiniu/php-sdk": "dev-master",
+        "aliyuncs/oss-sdk-php": "dev-master",
+        "qcloud/cos-sdk-v5": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "gnitif",
+        "email": "gnitif@126.com"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Guanguans\\": "src/"
+        }
+    }
+}

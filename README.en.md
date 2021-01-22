@@ -4,6 +4,7 @@ tp6集成qiniu、oss、cos上传
 ## 使用方法
 
 ### config/filesystem.php中增加对应驱动配置
+composer require gnitif/mixoos
 
 ```php
 return [
